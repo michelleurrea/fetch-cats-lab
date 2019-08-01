@@ -1,0 +1,22 @@
+body{
+	background-color: orange;
+}
+
+h1{
+	text-align: center;
+	color: purple;
+}
+
+form{
+	color: green;
+	text-align: center
+}
+
+p{
+	text-align: center;
+}
+
+#result img {
+	height: 200px;
+	width: auto;
+}

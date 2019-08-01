@@ -3,9 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Fetch Lab</title>
+  <title>Photos of Cats</title>
+  <link rel="stylesheet" type="text/css" href="./styles.css">
 </head>
 <body>
-  <h1>Hello Front-End</h1>
+  <h1>The Site that Displays Pictures of Cats</h1>
+  <p id="error-message"></p>
+  <form id="cat-form">
+  		<label for="num-cats">Number of Cat Photos:</label><br>
+  		<input type="text" id="num-cats" required><br><br>
+  		<input type="submit" value="Fetch-cats">
+  </form>
+  <div id="result"></div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="./app.js"></script>
 </body>
 </html>
